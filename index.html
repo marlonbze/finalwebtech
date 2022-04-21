@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Quiz Application | Marlon Brown</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7aa9b487b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="header">
+        <h1>Web Technologies Online Quiz Project</h1>
+        <p>Done By: Marlon Brown</p>
+
+    </div>
+    <div class="start_btn"><button>Start Quiz</button></div>
+      
+    <!--Starting Quiz Button-->
+
+    <div class="info_box">
+        <div class="info-title"><span>Quiz Rules</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>20 seconds</span> per question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone so choose wisley.</div>
+            <div class="info">3. You can't select any option once time goes off and will be locked out.</div>
+            <div class="info">4. You can't exit from the quiz once it has started.</div>
+            <div class="info">5. Points are rewared based on your answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Leave Quiz</button> <!--Button to exit quiz-->
+            <button class="restart">Continue</button> <!--Button to continue doing the quiz-->
+        </div>
+    </div>
+
+    
+    <div class="quiz_box">
+        <header>
+            <div class="title">Web technologies Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Remaining</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+              
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+
+        
+        <footer>
+            <div class="total_que">
+                
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You are all done! </div>  <!--End of quiz results box-->
+        <div class="score_text">
+            
+        </div>
+        <div class="buttons">
+            <button class="restart">Attempt Again</button>
+            <button class="quit">Exit Quiz</button>
+        </div>
+    </div>
+
+    
+    <script src="js/quizquestions.js"></script> <!--Questions source-->
+
+    
+    <script src="js/code.js"></script> <!--Script Source-->
+
+</body>
+</html>
